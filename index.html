@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#d831ae">
+    <title>VR GLASSES</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="overflow-x-hidden">
+        <div class="golla w-96 h-96 rounded-full bg-black blur-3xl absolute right-0"></div>
+    <div class="lg:h-screen px-1 py-6 lg:py-0 lg:px-8" id="header">
+        <nav id="nav" class="flex items-center justify-between p-3 lg:px-8 text-white">
+            <div class="logo uppercase text-xl font-semibold">vr glasses</div>
+            <ul class="flex items-center list-none py-2">
+                <li><a href="#" class="hidden md:block cursor-default sm:cursor-pointer px-4 py-2 capitalize text-xl border-2 border-transparent hover:border-b-[#f5f5f5] transition">home</a></li>
+                <li><a href="#" class="hidden md:block cursor-default sm:cursor-pointer px-4 py-2 capitalize text-xl border-2 border-transparent hover:border-b-[#f5f5f5] transition">product</a></li>
+                <li><a href="#" class="hidden md:block cursor-default sm:cursor-pointer px-4 py-2 capitalize text-xl border-2 border-transparent hover:border-b-[#f5f5f5] transition">pricing</a></li>
+                <li><a href="#" class="hidden md:block cursor-default sm:cursor-pointer px-4 py-2 capitalize text-xl border-2 border-transparent hover:border-b-[#f5f5f5] transition">about</a></li>
+                <li><a href="#" class="hidden lg:block cursor-default sm:cursor-pointer px-4 py-2 capitalize text-xl border-2 border-transparent hover:border-b-[#f5f5f5] transition">contact</a></li>
+                <li><a href="#" class="cursor-default sm:cursor-pointer px-6 py-2 capitalize text-xl hover:bg-[#ffffff5f] rounded-full bg-[#ffffff3f] backdrop-blur-sm font-medium">login</a></li>
+            </ul>
+        </nav>
+        <!-- show case image  -->
+        <div class="flex flex-col-reverse lg:grid lg:grid-cols-2 lg:h-[calc(100vh-69px)]">
+            <div class="place-self-center">
+                <div class="page1-headings rounded">
+                    <h2 class="text-center lg:text-left uppercase font-semibold text-3xl lg:text-6xl text-[#f5f5f3]">get ready to enjoy</h2>
+                    <h2 class="text-center lg:text-left text-colorful uppercase text-3xl font-semibold lg:text-6xl"><span class="text-white">vr</span> games with</h2>
+                    <h2 class="text-center lg:text-left text-colorful uppercase text-3xl font-semibold lg:text-6xl">our platform</h2>
+                </div>
+                <p class="sub-title text-md lg:text-xl  m-4 text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam modi officiis consequatur ad architecto ab nisi? Nihil non repellendus deleniti!</p>
+                <div class="btn-container flex justify-center lg:justify-normal items-center gap-4">
+                    <a href="#" class="cursor-default sm:cursor-pointer capitalize py-3 px-7 lg:py-4 lg:px-8 rounded-full font-medium bg-white hover:bg-fuchsia-400 transition">play now</a>
+                    <a href="#" class="cursor-default sm:cursor-pointer flex items-center gap-2 capitalize py-2 px-3 lg:py-3 lg:px-5 rounded-full font-medium hover:bg-[#ffffff3f] border-2 text-white transition">
+                        <img class="w-8 h-8 text-black" src="assets/play-circle.svg" alt="">    see demo
+                    </a>
+                </div>
+            </div>
+            <div class="w-full">
+                <img class="w-full h-[97%] rounded object-cover img-org" src="assets/vr-originalbgrm.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- main -->
+    <main class="bg-[#181532]">
+        <div class="lg:flex items-center justify-around py-8">
+            <div class="flex items-center justify-center gap-4">
+                <div class="main-imges">
+                    <img class=" rounded-ss-full rounded-se-3xl w-72 h-72 object-cover" src="assets/vrimg3.jpg" alt="">
+                </div>
+                <div class="main-imges">
+                    <img class="rounded-s-full w-72 h-80 object-cover" src="assets/vrimg5.avif" alt="">
+                    <img class="rounded-e-full w-72 h-80 mt-4 object-cover" src="assets/vrimg6.avif" alt="">
+                </div>
+            </div>
+            <div class="mt-8 lg:mt-0 page2-headings">
+                <h2 class="active-page3 text-colorful text-center lg:text-left uppercase text-4xl font-semibold lg:text-6xl">creating</h2>
+                <h2 class="uppercase text-center lg:text-left font-semibold text-3xl lg:text-6xl text-[#f5f5f3]"><span class="text-colorful">augmented</span> reality</h2>
+                <h2 class="uppercase text-center lg:text-left font-semibold text-3xl lg:text-6xl text-[#f5f5f3]">apps has never</h2>
+                <h2 class="uppercase text-center lg:text-left font-semibold text-3xl lg:text-6xl text-[#f5f5f3]">been so convenient</h2>
+           
+                <div class="page2-buttons flex items-center justify-center lg:justify-normal gap-4 mt-7">
+                    <a href="#" class="capitalize py-3 px-6 lg:py-4 lg:px-8 rounded-full font-medium  bg-colorful hover:scale-90 hover:text-black transition-all">play now</a>
+                    <a href="#" class=" flex items-center gap-2 capitalize py-2 px-4 lg:py-4 lg:px-6 rounded-full font-medium hover:bg-[#ffffff3f] text-white hover:scale-90 border-2 border-white transition">learn more</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- company details -->
+        <div class="flex flex-col lg:flex-row lg:justify-around items-center py-8">
+            <div class="page3-headings">
+                <h2 class="text-center lg:text-left text-colorful uppercase text-4xl  font-semibold lg:text-6xl mb-1">our company</h2>
+                <h2 class="text-center lg:text-left text-[#f5f5f3] uppercase text-3xl  font-semibold lg:text-6xl">values culture</h2>
+                <p class="text-center px-8 lg:px-0 lg:text-left text-md lg:text-lg mt-8 max-w-[700px] text-[#f5f5f3]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae sequi consequuntur, deleniti quaerat mollitia rerum quisquam qui dignissimos animi sit.</p>
+            </div>
+            <img class="mt-4 lg:mt-0 page3-img w-96 h-96 object-cover rounded-lg" src="assets/vr-imaginary.jpg" alt="">
+        </div>
+    </main>
+    <footer class="bg-black capitalize py-3 px-2">
+        <div class="social flex gap-4 items-center justify-center mb-4">
+            <a href="https://github.com/Shubham0202" target="_blank">
+                <img class="bg-white p-2 w-14 animate-bounce sm:w-20 rounded-full" src="assets/social/gitHub.png" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/shubham-chandgude-6404b7270" target="_blank">
+                <img class="bg-white w-14 sm:w-20 p-2 rounded-full" src="assets/social/in.png" alt="">
+            </a>
+            <a href="#">
+                <img class="bg-white p-2 w-14 sm:w-20 rounded-full" src="assets/social/fb.png" alt="">
+            </a>
+            
+        </div>
+        <p class="text-white text-center">&copy; all right are reserved <span class="text-white font-semibold uppercase">vr glasses</span> since 2023</p>
+    </footer>
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="scripts/animations.js"></script>
+</html>
