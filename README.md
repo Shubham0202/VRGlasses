@@ -23,8 +23,7 @@ This project is a web-based virtual reality (VR) glasses user interface (UI) dev
 ## Usage
 
 - **Explore VR Glasses**: Users can explore different models of VR glasses by navigating through the UI.
-- **View Specifications**: Users can view detailed specifications and pricing for each VR glasses model.
-- **Interact with UI Elements**: Users can interact with sliders, buttons, and other UI elements to customize their experience.
+ **Interact with UI Elements**: Users can interact with sliders, buttons, and other UI elements to customize their experience.
 
 ## Contributing
 
