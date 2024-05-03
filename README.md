@@ -14,7 +14,7 @@ This project is a web-based virtual reality (VR) glasses user interface (UI) dev
 ## Installation
 
 1. **Clone the repository**:
-git clone https://github.com/Shubham0202/VRGlasses
+`git clone https://github.com/Shubham0202/VRGlasses`
 
 2. **Start the Server**:
 
